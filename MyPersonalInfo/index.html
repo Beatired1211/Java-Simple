@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Information</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .menu-bar ul{
+            background-color: #EE4E34;
+            padding: 10px 0px;  
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+        }
+
+        li{
+            margin: 50px;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        li:hover{
+            color:#000;
+            cursor: pointer;
+        }
+ 
+        .home{
+            display: flex;
+            background-color: #FCEDDA;
+            width: 100%;
+            height: 88vh;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+
+        .image img{
+            border-radius: 200px;
+            height: 600px;
+            width: 600px;
+            margin: 70px;
+        }
+
+        .image{
+            width: 48%;
+        }
+
+        .about{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48%;
+            font-size: 20px;
+            padding-left: 30px;
+        }
+
+        .quote{
+            display: flex;
+            background-color: #EE4E34;
+            width: 100%;
+            height: 88vh;
+            flex-direction: row;
+        }
+
+        .game{
+            display: flex;
+            background-color: #EE4E34;
+            width: 100%;
+            height: 88vh;
+            flex-direction: row;
+        }
+
+        .bio{
+            display: flex;
+            background-color: #FCEDDA;
+            width: 100%;
+            height: 88vh;
+            flex-direction: row;
+        }
+
+        .footer{
+            display: flex;
+            background-color: #FCEDDA;
+            width: 100%;
+            height: 10vh;
+            flex-direction: row;
+        }
+
+        a{
+           text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "menu-bar">
+        <ul>
+            <a href="#homes"><li>Home</li></a>
+            <a href="#quotes"><li>Quotes I like</li></a>
+            <a href="#bios"><li>Bio</li></a>
+            <a href="#games"><li>Games</li></a>
+        </ul>
+    </div>
+
+    <div class = "home" id = "homes">
+        <h1>Facts about ME</h1>    
+    </div>
+
+    <div class = "quote" id = "quotes">
+        <div class = "about">
+            <p align = "justify" style = "font-size: 40px;">"Time is Gold"</p>
+        </div>
+        <div class = "image">
+            <img src="./assets/time.jfif" alt="">
+        </div>
+    </div>
+
+    <div class = "bio" id = "bios">
+        <div class = "image">
+            <img src="./assets/picture.jpg" alt="">
+        </div>
+        <div class = "about">
+            <p align = "justify" style="font-size: 40px;">Beatrice Casakit (born 12 November 2002) born and raise in Las Piñas City Admiral, I love playing games like Valorant and Mobile Legend: Bang Bang and some other mobile games. My physical sport is volleyball. On my past time I study programming.</p>
+        </div>
+    </div>
+
+    <div class = "game" id = "games">
+        <div class = "about">
+            <p align = "justify">Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents, 
+                characters based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each 
+                team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, 
+                orbs, or objectives. Every player starts each round with a "classic" pistol and one or more "signature ability" charges. Other weapons and ability charges can be purchased 
+                using an in-game economic system that awards money based on the outcome of the previous round, any kills the player is responsible for, and any objectives completed. 
+                The game has an assortment of weapons including secondary guns like sidearms and primary guns like submachine guns, shotguns, machine guns, assault rifles and sniper rifles. 
+                There are automatic and semi-automatic weapons that each have a unique shooting pattern that has to be controlled by the player to be able to shoot accurately. 
+                It currently offers 20 agents to choose from. They are Brimstone, Viper, Omen, Cypher, Sova, Sage, Phoenix, 
+                Jett, Raze, Breach, Reyna, Killjoy, Skye, Yoru, Astra, KAY/O, Chamber, Neon, Fade and Harbor. The player will get 5 unlocked agents when they create their account, 
+                (Brimstone, Sova, Sage, Phoenix and Jett) and will have to unlock the rest of the agents by activating that agent's contract.</p>
+        </div>
+        <div class = "image">
+            <img src="./assets/valo.webp" alt="">
+        </div>
+    </div>
+
+    <div class = "footer">
+     
+
+    </div>
+</body>
+</html>
